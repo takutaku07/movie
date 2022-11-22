@@ -14,31 +14,26 @@ SiteEV4 siteEV4 = (SiteEV4) application.getAttribute("siteEV4");
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-h1{
-text-align: center;
-}
-.center{
-text-align: center;
-}
-</style>
-<style>
-.example{
-    text-align: center;
-}
-</style>
+
 <meta charset="UTF-8">
 <title>タートルズ(リブート)</title>
+<link href="css/botan.css" rel="stylesheet">
+<link href="css/haikei3.css" rel="stylesheet">
 </head>
-<body bgcolor="green" text="#fff">
+<body  text="#000000">
+<div class="inner">
 <h1>ミュータントタートルズ（リブート）の紹介ページ</h1>
-<table align="center" bgcolor="#800080"><tr>
-<th>写真</th><th>ストーリー</th>
+<table border="1" align="center" bgcolor="#800080">
+<tr>
+
+<th></th><th class="example2">ストーリー</th>
+
 </tr>
 <tr>
-<td><img src="img/tatols4.jpg" width="100" height="100"  alt="タートルズの写真"></td>
+<td><img src="img/tatols4.jpg"  alt="タートルズの写真"></td>
 <td>
 <p>
+  <span class="example1">
 チャンネル6のレポーター、エイプリル・オニールはニューヨーク市の港で犯罪シンジケート「フット団」の構成員達が<br>
 忍者らしき集団に襲われる場面を目撃したが、上司から証拠が無い事を理由に信じられなかった。<br>
 同じころ、ニューヨーク市はエイプリルの亡き父の勤務先だった大企業サックス社との契約を更新していた。<br>
@@ -50,9 +45,12 @@ SWATの到着と入れ替わりに去っていき、エイプリルは様子を�
 忍者の正体は人語を喋る亀で、師匠は人語を喋る鼠だった。<br>
 そして、彼らとエイプリルとは過去に接点があった。<br>
 一方、フット軍団たちはある邪悪な企みを遂行していた。
+</span>
 </p>
 </td>
+
 </tr>
+
 </table>
 <hr>
 <div class="example">
@@ -88,6 +86,7 @@ SWATの到着と入れ替わりに去っていき、エイプリルは様子を�
 	<%
 	}
 	%>
-<a href="/movie/Main">一覧に戻る</a>
+<button class="button" onclick="location.href='Main'">一覧へ</button>
+</div>
 </body>
 </html>

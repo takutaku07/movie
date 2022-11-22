@@ -1,0 +1,12 @@
+@charset "UTF-8";
+body {
+   background-color: #486d46;            /* 背景色 */
+   background-image: url("../img/eiga2.jpg"); /* 画像 */
+   background-size: center;               /* 全画面 */
+   background-attachment: fixed;         /* 固定 */
+}
+.inner {
+  margin-top: 300px;
+  text-align: center;
+}
+

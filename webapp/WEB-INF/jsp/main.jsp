@@ -8,28 +8,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-h1{
-text-align: center;
-}
-.center{
-text-align: center;
-}
-</style>
 
 <meta charset="UTF-8">
 <title>映画リスト一覧</title>
-<link href="css/color.css" rel="stylesheet">
-<link href="css/botan.css" rel="stylesheet">
 
+<link href="css/botan.css" rel="stylesheet">
+<link href="css/haikei3.css" rel="stylesheet">
 </head>
 <body text="#000000">
-<div class='outer-scratch'>
-  <div class="inner-scratch">
-    <div class="background grain">
-
+<div class="inner">
 <p style="text-align:center"><font size="7"><span>映画作品一覧</span></font></p>
-<div style="text-align:center;">
+
 <%= loginUser.getName() %>さん、ログイン中
 
 <p>
@@ -61,8 +50,6 @@ text-align: center;
 </table>
 </div>
 </div>
-</div>
-</div>
-</div>
+
 </body>
 </html>
